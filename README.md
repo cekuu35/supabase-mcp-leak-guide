@@ -109,3 +109,9 @@ So: audit your history, rotate anything you find, *then* clean up. In that order
 If you want to actually *see* this happen end to end, I put together a small reproducible demo — a repo with a service_role key wired into an MCP config, and a walkthrough of exactly what an attacker can pull once RLS is out of the picture and how the rotate-then-purge fix plays out: **[github.com/cekuu35/supabase-rls-leak-demo](https://github.com/cekuu35/supabase-rls-leak-demo)**. It's free, no signup.
 
 And if you'd rather run a full pass over your own project — RLS policies, key placement, and config-file leaks like the one above — I keep a paid **[Supabase RLS Audit Kit](https://cengokurtoglu.gumroad.com/l/supabase-rls-audit-kit)** ($29) with the checklist and test scripts I use. Totally optional; the demo repo above already covers the leak in this post.
+
+## Free pre-launch checklist
+
+10 checks that catch the common Next.js + Supabase launch mistakes (free, instant download): https://cengokurtoglu.gumroad.com/l/nextjs-supabase-10-checks-free
+
+More security tooling and review kits: https://cengokurtoglu.gumroad.com
